@@ -108,6 +108,7 @@ nav a:hover {
   min-height: 100%;
   font-size: 100%;
   margin-left: 40%;
+  padding-top: 10%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -156,7 +157,10 @@ nav a:hover {
   border: 5px solid rgb(229, 235, 58);
   border-radius: 15px;
 }
-@media screen and (max-width: 1900px) {
+@media screen and (max-width: 1600px) {
+  body {
+    font-size: 175%;
+  }
   .about-txt, h3 {
     font-size: 73%;
   }
@@ -180,6 +184,9 @@ nav a:hover {
   }
 }
 @media screen and (max-width: 993px) {
+  body {
+    font-size: 150%;
+  }
   .box {
     height: 100%;
     width: 100%;
@@ -199,6 +206,7 @@ nav a:hover {
   }
   .container {
     margin-left: 0;
+    margin-right: 0;
     width: 100%;
   }
   #about {
@@ -223,6 +231,9 @@ nav a:hover {
 }
 
 @media screen and (max-width: 700px) {
+  body {
+    font-size: 145%;
+  }
   .box {
     display: grid;
     grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
@@ -235,6 +246,7 @@ nav a:hover {
   }
   .container {
     margin-left: 0%;
+    margin-right: 0;
     width: 100vw;
   }
   #about {
