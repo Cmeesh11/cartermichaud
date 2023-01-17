@@ -1,6 +1,7 @@
 :root {
   --background: rgb(107, 218, 230);
 }
+@media screen and (min-width: 1900px) {
 body {
   background-color: aliceblue;
   background-image: url("./images/backgroundimg.png");
@@ -22,7 +23,7 @@ h2 {
   align-items: center;
 }
 
-.about-txt, h3 {
+.about-txt, h3, .logo {
   font-size: 100%;
 }
 
@@ -155,6 +156,7 @@ nav a:hover {
 .title {
   border: 5px solid rgb(229, 235, 58);
   border-radius: 15px;
+}
 }
 @media screen and (max-width: 1900px) {
   .about-txt, h3 {
