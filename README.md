@@ -8,3 +8,5 @@ Inquiries can also be made using the "contact me" form.
 ## Usage
 
 For companies to examine and evaluate my competency. As well as for anyone curious about what I have made.
+
+![page_image](./assets/images/page_image.png)
