@@ -6,7 +6,7 @@ body {
   background-image: url("./images/backgroundimg.png");
   background-size: 80%;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 
@@ -68,7 +68,7 @@ nav li {
 nav a {
   color: aliceblue;
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 100%;
   text-transform: uppercase;
 }
 
@@ -79,7 +79,7 @@ nav a:hover {
 .projects {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 5px;
+  gap: 15%;
   grid-row: auto auto;
   width: 100%;
   height: 500px;
@@ -96,10 +96,18 @@ nav a:hover {
   height: 100%;
 }
 
+.card-first {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border: 2px dashed black;
+  width: 120%;
+  height: 150%;
+}
 .container {
   min-height: 100%;
   font-size: 100%;
-  /* margin-left: 40%; */
+  margin-left: 40%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -148,52 +156,99 @@ nav a:hover {
   border: 5px solid rgb(229, 235, 58);
   border-radius: 15px;
 }
-
-@media screen and (max-width: 993px) {
-  .logo {
-    font-size: 2em;
-  }
+@media screen and (max-width: 1900px) {
   .about-txt, h3 {
-    font-size: 75%;
+    font-size: 73%;
   }
   .container {
-    margin-left: 0;
+    margin-left: 60%;
   }
   #about {
     position: absolute;
-    left: 80px;
-    font-size: 100%;
+    left: 400px;
   }
   #project {
     position: absolute;
-    left: 42px;
-    font-size: 100%;
+    left: 335px;
   }
   #contact {
     position: absolute;
+    left: 323px;
+  }
+}
+@media screen and (max-width: 993px) {
+  .box {
+    height: 100%;
+    width: 100%;
+  }
+  nav a {
+    font-size: 1.4rem;
+  }
+
+  .title, .view {
+    font-size: 100%;
+  }
+  .logo {
+    font-size: 2em;
+  }
+  .container {
+    margin-left: 0;
+    width: 100%;
+  }
+  #about {
+    display: inline;
+    position: static;
+    font-size: 100%;
+    margin-top: 50px;
+  }
+  #project {
+    display: inline;
+    position: static;
+    font-size: 100%;
+  }
+
+  #contact {
+    display: inline;
+    position: static;
     left: 30px;
     font-size: 100%;
   }
+  
 }
 
 @media screen and (max-width: 700px) {
-  
+  .box {
+    display: grid;
+    grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
+    background: var(--background);
+    width: 100%;
+    padding: 2%;
+  }
   .logo{
     font-size: 2em;
   }
   .container {
     margin-left: 0%;
+    width: 100vw;
   }
   #about {
-    position: absolute;
-    left: 80px;
+    display: inline;
+    position: static;
+    font-size: 100%;
+    margin-top: 50px;
   }
   #project {
-    position: absolute;
-    left: 42px;
+    display: block;
+    position: static;
+    font-size: 100%;
   }
   #contact {
-    position: absolute;
+    display: static;
+    position: inline;
     left: 30px;
+    font-size: 100%;
+  }
+  nav a {
+    font-size: 1.4rem;
   }
 }
