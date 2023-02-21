@@ -8,7 +8,7 @@ html {
 }
 
 .project-image {
-  height: 250px;
+  height: 230px;
 }
 
 #down-arrow {
@@ -21,6 +21,11 @@ html {
   border-right: 4px solid;
   transform: rotateZ(45deg);
   animation: bounce 1.25s infinite;
+}
+
+#signin {
+  background-color: #6f42c1;
+  color: white;
 }
 
 @keyframes bounce {
