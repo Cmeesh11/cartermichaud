@@ -3,6 +3,7 @@ html {
   scroll-snap-type: y proximity;
 }
 
+
 .scroll-area {
   scroll-snap-align: start;
 }
@@ -10,6 +11,7 @@ html {
 .project-image {
   height: 230px;
 }
+
 
 #down-arrow {
   position: absolute;

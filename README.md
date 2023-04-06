@@ -3,7 +3,6 @@
 ## Description
 
 This is my profressional personal portfolio that showcases an "about me" section and my best projects over my career as a web developer.
-Inquiries can also be made using the "contact me" form.
 
 ## Usage
 

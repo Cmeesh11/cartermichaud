@@ -9,6 +9,10 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./assets/style.css" />
     <title>Carter Michaud</title>
   </head>
@@ -34,16 +38,50 @@
                 <a href="#about" class="nav-link">About me</a>
               </li>
               <li class="navbar-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Projects</a
+                >
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#javascript-quiz">Javascript Quiz</a></li>
-                  <li><a class="dropdown-item" href="#weather-forecast">Weather Forecast</a></li>
-                  <li><a class="dropdown-item" href="#marvel-typing-trainer">Marvel Typing Trainer</a></li>
-                  <li><a class="dropdown-item" href="#daily-planner">Daily Planner</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#javascript-quiz"
+                      >Javascript Quiz</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#weather-forecast"
+                      >Weather Forecast</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#marvel-typing-trainer"
+                      >Marvel Typing Trainer</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#daily-planner"
+                      >Daily Planner</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#team-generator"
+                      >Team Profile Generator</a
+                    >
+                    <li>
+                      <a class="dropdown-item" href="#e-commerce"
+                        >E-Commerce Back-End</a
+                      >
+                      <li>
+                        <a class="dropdown-item" href="#employee-tracker"
+                          >Employee Tracker</a
+                        >
                 </ul>
               </li>
               <li class="navbar-item">
-                <a href="#contact" class="nav-link">Contact Me</a>
+                <a href="https://github.com/Cmeesh11" class="nav-link">Github <i class="fa fa-github" style="font-size:20px"></i></a>
               </li>
             </ul>
           </div>
@@ -57,7 +95,8 @@
           <p class="text-center fs-3">
             I'm an aspiring full stack web developer who's passionate about
             creating and developing applications to bring them into reality. I'm
-            currently attending <strong>UNH's Full Stack Coding Bootcamp</strong>.
+            currently attending
+            <strong>UNH's Full Stack Coding Bootcamp</strong>.
           </p>
           <p class="text-center fs-3">
             I like to see how my interests in music and game development can tie
@@ -68,56 +107,134 @@
         <div id="down-arrow"></div>
       </section>
       <section class="container scroll-area vh-100 align-items-center">
-      <div class="row">
+        <div class="row">
           <h2 class="text-center fs-1 col-12" id="project">My Projects</h2>
-          <div class="card col-sm-12 col-md-6 col-lg-3 text-center scroll-area" id="javascript-quiz">
-           <img src="./assets/images/javascript_quiz.png" class="card-img-top project-image">
+          <div
+            class="card col-sm-12 col-md-6 col-lg-3 text-center scroll-area"
+            id="javascript-quiz"
+          >
+            <img
+              src="./assets/images/javascript_quiz.png"
+              class="card-img-top project-image"
+            />
             <div class="card-body d-flex flex-column justify-content-between">
               <h3 class="card-title text-center">Javascript Quiz</h3>
-              <p class="card-text">Multiple choice quiz on Javascript related questions.</p>
-              <a href="https://cmeesh11.github.io/Javascript-Quiz/" class="btn btn-primary mb-3 d-block">Go</a>
+              <p class="card-text">
+                Multiple choice quiz on Javascript related questions.
+              </p>
+              <a
+                href="https://cmeesh11.github.io/Javascript-Quiz/"
+                class="btn btn-primary mb-3 d-block"
+                >Go</a
+              >
             </div>
           </div>
-        <div class="card col-sm-12 col-md-6 col-lg-3 text-center scroll-area" id="weather-forecast">
-           <img src="./assets/images/weather_forecast.png" class="card-img-top project-image">
-           <div class="card-body d-flex flex-column justify-content-between">
-            <h3 class="card-title text-center">Weather Forecast</h3>
-            <p class="card-text">Uses openweathermap API to retrieve weather data.</p>
-            <a href="https://cmeesh11.github.io/Weather-Forecast/" class="btn btn-primary mb-3 d-block">Go</a>
-           </div>
+          <div
+            class="card col-sm-12 col-md-6 col-lg-3 text-center scroll-area"
+            id="weather-forecast"
+          >
+            <img
+              src="./assets/images/weather_forecast.png"
+              class="card-img-top project-image"
+            />
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h3 class="card-title text-center">Weather Forecast</h3>
+              <p class="card-text">
+                Uses openweathermap API to retrieve weather data.
+              </p>
+              <a
+                href="https://cmeesh11.github.io/Weather-Forecast/"
+                class="btn btn-primary mb-3 d-block"
+                >Go</a
+              >
+            </div>
+          </div>
+          <div
+            class="card col-sm-12 col-md-6 col-lg-3 text-center scroll-area"
+            id="marvel-typing-trainer"
+          >
+            <img
+              src="./assets/images/Marvel-Typing-Trainer.png"
+              class="card-img-top project-image"
+            />
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h3 class="card-title text-center">Marvel Typing Trainer</h3>
+              <p class="card-text">
+                Interactive text passages based on Marvel comics and movies that
+                allow user to train typing skills.
+              </p>
+              <a
+                href="https://cmeesh11.github.io/Marvel-Typing-Trainer/"
+                class="btn btn-primary mb-3 d-block"
+                >Go</a
+              >
+            </div>
+          </div>
+          <div
+            class="card col-sm-12 col-md-6 col-lg-3 text-center scroll-area"
+            id="daily-planner"
+          >
+            <img
+              src="./assets/images/daily-planner-img.png"
+              class="card-img-top project-image"
+            />
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h3 class="card-title text-center">Daily Planner</h3>
+              <p class="card-text">
+                Daily schedule planner using Dayjs that updates in real time.
+              </p>
+              <a
+                href="https://cmeesh11.github.io/Daily-Planner/"
+                class="btn btn-primary mb-3 d-block"
+                >Go</a
+              >
+            </div>
+          </div>
+          <div class="card col-sm-12 col-md-6 col-lg-3 text-center scroll-area" id="team-generator">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h3 class="card-title text-center">Team Profile Generator</h3>
+              <p class="card-text">
+                Full-stack application using Inquirer that generates HTML and
+                CSS
+              </p>
+              <a
+                href="https://github.com/Cmeesh11/Team-Profile-Generator"
+                class="btn btn-primary mb-3 d-block"
+                >Go</a
+              >
+            </div>
+          </div>
+          <div class="card col-sm-12 col-md-6 col-lg-3 text-center scroll-area" id="e-commerce">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h3 class="card-title text-center">
+                E-Commerce Back-end Application
+              </h3>
+              <p class="card-text">
+                Back-end application using express.js and Sequelize that manages
+                a database.
+              </p>
+              <a
+                href="https://github.com/Cmeesh11/E-Commerce-Back-end"
+                class="btn btn-primary mb-3 d-block"
+                >Go</a
+              >
+            </div>
+          </div>
+          <div class="card col-sm-12 col-md-6 col-lg-3 text-center scroll-area" id="employee-tracker">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h3 class="card-title text-center">Employee Tracker</h3>
+              <p class="card-text">
+                Back-end application using inquirer and SQL that manages an
+                employee database
+              </p>
+              <a
+                href="https://github.com/Cmeesh11/Employee-Tracker"
+                class="btn btn-primary mb-3 d-block"
+                >Go</a
+              >
+            </div>
+          </div>
         </div>
-        <div class="card col-sm-12 col-md-6 col-lg-3 text-center scroll-area" id="marvel-typing-trainer">
-           <img src="./assets/images/Marvel-Typing-Trainer.png" class="card-img-top project-image">
-           <div class="card-body d-flex flex-column justify-content-between">
-            <h3 class="card-title text-center">Marvel Typing Trainer</h3>
-            <p class="card-text">Interactive text passages based on Marvel comics and movies that allow user to train typing skills.</p>
-            <a href="https://cmeesh11.github.io/Marvel-Typing-Trainer/" class="btn btn-primary mb-3 d-block">Go</a>
-           </div>
-        </div>
-        <div class="card col-sm-12 col-md-6 col-lg-3 text-center scroll-area" id="daily-planner">
-           <img src="./assets/images/daily-planner-img.png" class="card-img-top project-image">
-           <div class="card-body d-flex flex-column justify-content-between">
-            <h3 class="card-title text-center">Daily Planner</h3>
-            <p class="card-text">Daily schedule planner using Dayjs that updates in real time.</p>
-            <a href="https://cmeesh11.github.io/Daily-Planner/" class="btn btn-primary mb-3 d-block">Go</a>
-        </div>
-      </div>
-      <h3 class="mt-5 text-center" id="contact">Contact me</h3>
-      <form class="mt-2">
-        <div class="mb-3">
-          <label for="firstname" class="form-label d-block w-50 m-auto">First Name</label>
-          <input type="text" class="form-control form-control-lg w-50 m-auto" id="firstname" placeholder="Enter First Name">
-        </div>
-        <div class="mb-3">
-          <label for="lastname" class="form-label d-block w-50 m-auto">Last Name</label>
-          <input type="text" class="form-control form-control-lg w-50 m-auto" id="lastname" placeholder="Enter Last Name">
-        </div>
-        <div class="mb-3">
-          <label for="emailinput" class="form-label d-block w-50 m-auto">Email address</label>
-          <input type="email" class="form-control form-control-lg w-50 m-auto" id="emailinput" placeholder="email@example.com">
-        </div>
-        <button type="submit" class="btn d-block w-25 m-auto" id="signin">Submit</button>
-      </form>
       </section>
     </main>
     <script
