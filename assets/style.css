@@ -12,6 +12,14 @@ html {
   height: 230px;
 }
 
+.big-card {
+  border: 2px solid black
+}
+
+.big-card h3 {
+  font-size: xx-large;
+  font-weight: bold;
+}
 
 #down-arrow {
   position: absolute;
